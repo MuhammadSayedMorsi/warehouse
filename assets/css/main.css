@@ -527,13 +527,31 @@ hr {
       width: 10px;
       height: 10px; }
 
-.main-collection .container {
+.main-collection {
   margin-top: 50px; }
-  .main-collection .container h2 {
-    padding: 20px 0;
-    font-size: 30px;
-    letter-spacing: 1px; }
-  .main-collection .container .row .product-item-1 figure {
-    margin-left: 50px; }
-    .main-collection .container .row .product-item-1 figure img {
-      width: 100%; }
+  .main-collection .text-center {
+    margin-top: 50px; }
+    .main-collection .text-center h2 {
+      padding: 20px 0 50px;
+      font-size: 30px;
+      letter-spacing: 1px; }
+    .main-collection .text-center .row .product-item-1 {
+      padding: 0; }
+      .main-collection .text-center .row .product-item-1 figure img {
+        width: 100%; }
+      .main-collection .text-center .row .product-item-1 figure figcaption h5 {
+        font-size: 14px;
+        font-weight: 300;
+        padding-top: 20px;
+        letter-spacing: 1px; }
+      .main-collection .text-center .row .product-item-1 figure figcaption span {
+        font-size: 17px;
+        color: #000; }
+      .main-collection .text-center .row .product-item-1 figure figcaption .circle {
+        background: #000;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: inline-block; }
+        .main-collection .text-center .row .product-item-1 figure figcaption .circle:nth-child(2) {
+          background-color: blue; }
