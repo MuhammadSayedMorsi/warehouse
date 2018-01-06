@@ -331,9 +331,9 @@
 }
 
 //main-collection
-
 .main-collection {
   margin-top: 50px;
+  overflow: hidden;
 
   .text-center {
     margin-top: 50px;
@@ -343,13 +343,9 @@
       letter-spacing: 1px;
     }
     .row {
-      // width: 800px;
       .product-item-1 {
         padding: 0;
-        // margin-right: 10px;
-        // padding-right: 10px;
         figure {
-          // margin-left: 50px;
           img {
             width: 100%;
           }
@@ -370,13 +366,20 @@
               height: 15px;
               border-radius: 50%;
               display: inline-block;
-              &:nth-child(2) {
-                background-color: blue;
-              }
-            }
-          }
         }
+        .circle-blue {
+          background: blue;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          display: inline-block;
+        }
+        // .circle-white {
+        //   background-color: #fff;
+        // }
       }
     }
+  }
+}
   }
 }
